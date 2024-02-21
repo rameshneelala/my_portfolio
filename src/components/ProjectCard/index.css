@@ -1,0 +1,83 @@
+.pc-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pc-card {
+  width: 450px;
+  height: 250px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 64px 0px #7090b01a;
+  background-color: #7090b01a;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.pc-content-container {
+  padding: 20px;
+  order: 1;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.pc-img-contianer {
+  width: 100%;
+  order: 0;
+}
+
+.delete-icon {
+  font-size: 54px;
+  color: chocolate;
+  align-self: flex-start;
+}
+
+.pc-title {
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+.pc-description {
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 2px;
+}
+.pc-button {
+  border-radius: 5px;
+  border: 1px solid #4a4e53;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+.pc-button:hover {
+  background-color: #4a4e53;
+  color: #ffffff;
+}
+.pc-img {
+  width: 200px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 300px;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .pc-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pc-img-contianer {
+    order: 1;
+    width: 50%;
+  }
+  .pc-content-container {
+    width: 50%;
+  }
+}

@@ -1,0 +1,41 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  background-color: aliceblue;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  align-items: center;
+  width: 100%;
+}
+
+.break {
+  margin-top: 5px;
+}
+
+.main-heading {
+  color: cadetblue;
+}
+
+.description {
+  color: darkslategray;
+}
+
+.activities {
+  list-style-type: none;
+}
+
+.tech {
+  height: 400px;
+  width: 550px;
+  margin-top: 50px;
+}
+
+.para {
+  text-align: center;
+  color: darkgray;
+}

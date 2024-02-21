@@ -1,0 +1,28 @@
+.pp-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  background-color: aliceblue;
+}
+.pp-header {
+  display: flex;
+  flex-direction: column;
+}
+.pp-heading {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.underline {
+  align-self: center;
+  margin-top: 0;
+}
+.pp-list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}

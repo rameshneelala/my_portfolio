@@ -1,0 +1,17 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  background-color: aliceblue;
+  height: 100vh;
+}
+
+.social-icons-set {
+  align-self: center;
+}
+
+.bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}

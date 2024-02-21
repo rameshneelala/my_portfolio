@@ -1,0 +1,40 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name-logo {
+  color: mediumslateblue;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+}
+.nav {
+  position: relative;
+  z-index: 20;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icon {
+  margin-right: 2px;
+  color: teal;
+}
+
+.header-logo-name {
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}

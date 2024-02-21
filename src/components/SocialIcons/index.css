@@ -1,0 +1,20 @@
+.social-icons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.icons-card {
+  display: flex;
+  justify-content: center;
+}
+.social-icon {
+  width: 48px;
+  height: 48px;
+}
+.pl-footer-description {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+}
