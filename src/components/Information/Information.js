@@ -27,6 +27,7 @@ const Information = () => {
             </a>
           </div>
         </div>
+
         <div className="image-card">
           <img src={BG_YELLOW} alt="background" className="bg-image" />
           <img src={PROFILE_IMG} alt="profile" className="profile-image" />

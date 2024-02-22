@@ -1,6 +1,6 @@
 .info-container {
   display: flex;
-  height: 600px;
+  margin-bottom: 100px;
 }
 .content-card {
   width: 100%;
@@ -66,4 +66,18 @@
 }
 .profile-image {
   position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+  .info-container {
+    margin-bottom: 20px;
+  }
+  .name {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .professional-details {
+    font-size: 14px;
+    font-weight: 200;
+  }
 }

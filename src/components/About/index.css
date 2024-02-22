@@ -39,3 +39,19 @@
   text-align: center;
   color: darkgray;
 }
+
+@media screen and (max-width: 768px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    width: 100%;
+  }
+  .tech {
+    height: 300px;
+    width: 250px;
+    margin-top: 50px;
+    background-size: cover;
+  }
+}

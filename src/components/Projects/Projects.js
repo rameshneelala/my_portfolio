@@ -10,8 +10,8 @@ const Projects = () => {
   const projectsList = useSelector((store) => store.projects.projectsList);
   return (
     <div className="pp-container">
+      <Header />
       <div className="pp-header">
-        <Header />
         <h2 className="pp-heading">Projects</h2>
         <img src={UNDERLINE} alt="underline" className="underline" />
       </div>

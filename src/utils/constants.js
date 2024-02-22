@@ -18,4 +18,4 @@ export const LINKEDIN_SRC =
 
 export const INSTAGRAM_HREF = "https://www.instagram.com/";
 export const MAIL_HREF = "https://mail.google.com/";
-export const LINKEDIN_HREF = "https://www.linkedin.com/in/sachinbalagam/";
+export const LINKEDIN_HREF = "https://www.linkedin.com/in/ramesh18/";

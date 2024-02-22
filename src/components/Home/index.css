@@ -4,3 +4,13 @@
   padding: 0 50px;
   background-color: aliceblue;
 }
+
+@media screen and (max-width: 768px) {
+  .body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 50px;
+    background-color: aliceblue;
+  }
+}

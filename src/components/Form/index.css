@@ -55,3 +55,40 @@
 .error-message {
   color: red;
 }
+
+@media screen and (max-width: 768px) {
+  .form-card {
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .form-container {
+    margin-top: 0px;
+  }
+  .form-title {
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 50px;
+  }
+  /* .label {
+    margin-left: 35px;
+  } */
+  .input {
+    width: 250px;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid #e8ecf4;
+    margin-bottom: 20px;
+  }
+  .text-area {
+    width: 250px;
+    height: 80px;
+    border-radius: 8px;
+    border: 1px solid #e8ecf4;
+  }
+}

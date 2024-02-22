@@ -20,10 +20,13 @@ const ProjectCard = (props) => {
   return (
     <div className="pc-container" key={id}>
       <div className="pc-card">
-        <IoIosCloseCircle
-          className="delete-icon"
-          onClick={() => handleDelete(id)}
-        />
+        <div className="delete-container">
+          <IoIosCloseCircle
+            className="delete-icon"
+            onClick={() => handleDelete(id)}
+          />
+        </div>
+
         <div className="pc-content-container">
           <h1 className="pc-title">{title}</h1>
           <p className="pc-description">{description}</p>
