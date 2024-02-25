@@ -8,6 +8,25 @@ import Footer from "../Footer/Footer";
 
 const Projects = () => {
   const projectsList = useSelector((store) => store.projects.projectsList);
+
+  // useEffect(() => {
+  //   const projects = [
+  //     {
+  //       id: 1,
+  //       title: "Comfy Store",
+  //       description: "It is a Ecommerce Website",
+  //       link: "https://comfystoreram.netlify.app/",
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "Personal Portfolio",
+  //       description: "Check My projects",
+  //       link: "https://portfoliorameshshiva.netlify.app/",
+  //     },
+  //   ];
+  //   localStorage.setItem("projects", JSON.stringify(projects));
+  // }, []);
+
   return (
     <div className="pp-container">
       <Header />
