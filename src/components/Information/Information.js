@@ -19,7 +19,7 @@ const Information = () => {
               <button className="project-button">Projects</button>
             </Link>
             <a
-              href="https://www.linkedin.com/in/sachinbalagam/"
+              href="https://www.linkedin.com/in/ramesh18/"
               target="_blank"
               rel="noreferrer"
             >
